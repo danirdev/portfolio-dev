@@ -3,7 +3,7 @@ import GlobalStyles from './components/layout/GlobalStyles';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import ProfileCard from './components/profile/ProfileCard';
-import SkillsCard from './components/profile/SkillsCard';
+import StackCard from './components/profile/StackCard';
 import IntroBox from './components/sections/IntroBox';
 import ProjectsGrid from './components/projects/ProjectsGrid';
 import Modals from './components/modals/Modals';
@@ -30,7 +30,7 @@ export default function App() {
               onOpenBio={() => setActiveModal('bio')}
               onOpenContact={() => setActiveModal('contact')}
             />
-            <SkillsCard />
+            <StackCard />
           </aside>
 
           {/* RIGHT COLUMN (Content) */}

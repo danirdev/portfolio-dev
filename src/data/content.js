@@ -25,7 +25,7 @@ export const PROJECTS = [
   }
 ];
 
-export const SKILLS = [
+export const STACK = [
   { name: 'HTML', color: 'bg-orange-500 hover:bg-orange-600' },
   { name: 'CSS', color: 'bg-blue-500 hover:bg-blue-600' },
   { name: 'JavaScript', color: 'bg-yellow-400 hover:bg-yellow-500' },
