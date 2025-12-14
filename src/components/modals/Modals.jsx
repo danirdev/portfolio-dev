@@ -17,9 +17,11 @@ export default function Modals({ activeModal, onClose }) {
           Mi enfoque combina la estética retro con la tecnología moderna.
         </p>
         <div className="mt-4 bg-gray-100 p-2 text-xs border border-gray-300">
-          {'>'} education: [Ingeniería de Software, Autodidacta]<br/>
-          {'>'} location: "Internet"<br/>
-          {'>'} hobby: "Pixel Art & Café"
+          {'>'} education: [Ingeniería Informática, Técnico Electrónico]<br/>
+          {'>'} certificados: "Full Stack Developer"<br/>
+          {'>'} location: "Jujuy, Argentina"<br/>
+          {'>'} lenguage: "Ingles B1"<br/>
+          {'>'} hobby: "Futbol & Café"
         </div>
       </Modal>
 

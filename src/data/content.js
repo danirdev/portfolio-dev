@@ -3,22 +3,25 @@ export const PROJECTS = [
     id: 1,
     title: "E-Commerce_Core",
     desc: "Motor de ventas online optimizado.",
-    tech: ["React", "Node", "Stripe"],
-    status: "ONLINE"
+    tech: ["React", "TailwindCSS"],
+    status: "ONLINE",
+    url: "https://carrito-compras-aqui.netlify.app"
   },
   {
     id: 2,
-    title: "Weather_Station",
+    title: "App_de_Clima",
     desc: "Monitor de clima en tiempo real.",
-    tech: ["API", "Vite", "ChartJS"],
-    status: "BETA"
+    tech: ["React", "TailwindCSS"],
+    status: "ONLINE",
+    url: "el-clima-aqui.netlify.app"
   },
   {
     id: 3,
-    title: "Task_Matrix",
-    desc: "Sistema de gestión de productividad.",
-    tech: ["Firebase", "React", "Auth"],
-    status: "OFFLINE"
+    title: "App_de_Peliculas",
+    desc: "Busca y descubre películas fácilmente.",
+    tech: ["React", "TailwindCSS"],
+    status: "ONLINE",
+    url: "https://peliculas-aqui.netlify.app"
   }
 ];
 

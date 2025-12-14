@@ -14,17 +14,23 @@ export default function ProjectsGrid() {
                 {t}
               </span>
             ))}
-          </div>
-          <div className="flex items-center justify-between mt-2 pt-2 border-t border-dashed border-black/20">
+          </div>          <div className="flex items-center justify-between mt-2 pt-2 border-t border-dashed border-black/20">
             <span className={`text-[10px] font-bold px-1 ${
               project.status === 'ONLINE' ? 'bg-green-100 text-green-700' : 
               project.status === 'BETA' ? 'bg-blue-100 text-blue-700' : 'bg-red-100 text-red-700'
             }`}>
               ● {project.status}
             </span>
-            <button className="text-xs font-bold hover:underline flex items-center gap-1">
+            <a 
+              href={project.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={`text-xs font-bold hover:underline flex items-center gap-1 ${
+                project.status === 'OFFLINE' ? 'opacity-50 pointer-events-none' : ''
+              }`}
+            >
               ACCEDER <ExternalLink size={12} />
-            </button>
+            </a>
           </div>
         </GridCard>
       ))}
