@@ -38,7 +38,9 @@ export default function ProjectsGrid() {
       <div className="border-2 border-black border-dashed p-6 flex items-center justify-center opacity-50 hover:opacity-100 transition-opacity cursor-pointer bg-white/50">
         <div className="text-center">
           <Layers size={32} className="mx-auto mb-2" />
-          <span className="font-mono text-xs">SLOT_VACÍO_PARA_TU_IDEA</span>
+          <span className="font-mono text-xs">
+            PROXIMAMENTE...
+          </span>
         </div>
       </div>
     </div>
