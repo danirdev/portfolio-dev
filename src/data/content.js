@@ -26,12 +26,12 @@ export const PROJECTS = [
 ];
 
 export const STACK = [
-  { name: 'HTML', color: 'bg-orange-500 hover:bg-orange-600' },
-  { name: 'CSS', color: 'bg-blue-500 hover:bg-blue-600' },
-  { name: 'JavaScript', color: 'bg-yellow-400 hover:bg-yellow-500' },
-  { name: 'React', color: 'bg-cyan-400 hover:bg-cyan-500' },
-  { name: 'Astro', color: 'bg-purple-600 hover:bg-purple-700' },
-  { name: 'Tailwind', color: 'bg-teal-500 hover:bg-teal-600' },
-  { name: 'Git', color: 'bg-red-500 hover:bg-red-600' },
-  { name: 'GitHub', color: 'bg-gray-800 hover:bg-gray-900' }
+  {name: 'HTML', color: 'bg-orange-500 hover:bg-orange-600'},
+  {name: 'CSS', color: 'bg-blue-500 hover:bg-blue-600'},
+  {name: 'JavaScript', color: 'bg-yellow-400 hover:bg-yellow-500'},
+  {name: 'React', color: 'bg-cyan-400 hover:bg-cyan-500'},
+  {name: 'Astro', color: 'bg-purple-600 hover:bg-purple-700'},
+  {name: 'Tailwind', color: 'bg-teal-500 hover:bg-teal-600'},
+  {name: 'Git', color: 'bg-red-500 hover:bg-red-600'},
+  {name: 'GitHub', color: 'bg-gray-800 hover:bg-gray-900'}
 ];
