@@ -2,24 +2,24 @@ export const PROJECTS = [
   {
     id: 1,
     title: "E-Commerce_Core",
-    desc: "Motor de ventas online optimizado.",
-    tech: ["React", "TailwindCSS"],
+    desc: "Módulo de transacciones digitales. Gestión de inventario en cliente y persistencia de datos local [LocalStorage].",
+    tech: ["React", "System_State", "Tailwind"],
     status: "ONLINE",
     url: "https://carrito-compras-aqui.netlify.app"
   },
   {
     id: 2,
     title: "App_de_Clima",
-    desc: "Monitor de clima en tiempo real.",
-    tech: ["React", "TailwindCSS"],
+    desc: "Nodo de telemetría ambiental. Conexión a satélites externos [OpenWeather] para reporte de condiciones atmosféricas.",
+    tech: ["React", "Fetch_Data", "API"],
     status: "ONLINE",
     url: "https://el-clima-aqui.netlify.app"
   },
   {
     id: 3,
     title: "App_de_Peliculas",
-    desc: "Busca y descubre películas fácilmente.",
-    tech: ["React", "TailwindCSS"],
+    desc: "Base de datos audiovisual. Algoritmo de búsqueda optimizado para indexación rápida de metadatos de entretenimiento.",
+    tech: ["React", "Async/Await", "Grid"],
     status: "ONLINE",
     url: "https://peliculas-aqui.netlify.app"
   }

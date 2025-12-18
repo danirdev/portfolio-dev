@@ -13,7 +13,7 @@ export default function ProfileCard ({onOpenBio, onOpenContact})
         {profileImageUrl ? (
           <img
             src={profileImageUrl}
-            alt="Profile"
+            alt="Foto de perfil de Daniel Ramos"
             className="w-full h-full object-cover"
           />
         ) : (
