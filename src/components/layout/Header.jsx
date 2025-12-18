@@ -1,4 +1,6 @@
-import {Code, Linkedin, Github} from 'lucide-react';
+import {Code} from 'lucide-react';
+import LinkedinIcon from '../icons/LinkedinIcon';
+import GithubIcon from '../icons/GithubIcon';
 
 export default function Header ()
 {
@@ -16,12 +18,11 @@ export default function Header ()
         </p>
       </div>
       <div className="flex gap-3">
-        <a href="https://www.linkedin.com/in/ramos-daniel-alberto/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-black hover:bg-black
-         hover:text-white transition-colors">
-          <Linkedin size={20} />
+        <a href="https://www.linkedin.com/in/ramos-daniel-alberto/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors">
+          <LinkedinIcon size={20} />
         </a>
         <a href="https://github.com/danirdev" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors">
-          <Github size={20} />
+          <GithubIcon size={20} />
         </a>
       </div>
     </header>
