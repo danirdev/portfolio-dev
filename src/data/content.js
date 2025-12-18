@@ -1,6 +1,30 @@
 export const PROJECTS = [
   {
     id: 1,
+    title: "Fotocopias_Ramos",
+    desc: "Nodo de replicación física de documentos. Interfaz de alta velocidad para servicios de impresión.",
+    tech: ["System_Web", "SEO_Core", "Responsive"],
+    status: "ONLINE",
+    url: "https://www.fotocopiasramos.site/"
+  },
+  {
+    id: 2,
+    title: "Barber_Trap",
+    desc: "Módulo de estética urbana. Sistema de visualización de estilos y reserva de modificaciones de avatar.",
+    tech: ["Interface", "Style_Grid", "Vercel"],
+    status: "ONLINE",
+    url: "https://barber-trap.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Franco_Soluciones",
+    desc: "Hub de mantenimiento técnico. Protocolos de reparación y soluciones de hardware/software.",
+    tech: ["Tech_Support", "Service_Bot", "Web"],
+    status: "ONLINE",
+    url: "https://franco-soluciones.vercel.app/"
+  },
+  {
+    id: 4,
     title: "E-Commerce_Core",
     desc: "Módulo de transacciones digitales. Gestión de inventario en cliente y persistencia de datos local [LocalStorage].",
     tech: ["React", "System_State", "Tailwind"],
@@ -8,7 +32,7 @@ export const PROJECTS = [
     url: "https://carrito-compras-aqui.netlify.app"
   },
   {
-    id: 2,
+    id: 5,
     title: "App_de_Clima",
     desc: "Nodo de telemetría ambiental. Conexión a satélites externos [OpenWeather] para reporte de condiciones atmosféricas.",
     tech: ["React", "Fetch_Data", "API"],
@@ -16,7 +40,7 @@ export const PROJECTS = [
     url: "https://el-clima-aqui.netlify.app"
   },
   {
-    id: 3,
+    id: 6,
     title: "App_de_Peliculas",
     desc: "Base de datos audiovisual. Algoritmo de búsqueda optimizado para indexación rápida de metadatos de entretenimiento.",
     tech: ["React", "Async/Await", "Grid"],
