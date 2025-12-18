@@ -13,7 +13,7 @@ export const PROJECTS = [
     desc: "Monitor de clima en tiempo real.",
     tech: ["React", "TailwindCSS"],
     status: "ONLINE",
-    url: "el-clima-aqui.netlify.app"
+    url: "https://el-clima-aqui.netlify.app"
   },
   {
     id: 3,

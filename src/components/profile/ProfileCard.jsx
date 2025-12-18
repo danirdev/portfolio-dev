@@ -1,17 +1,19 @@
-import { User } from 'lucide-react';
+import {User} from 'lucide-react';
 import PixelButton from '../iu/PixelButton';
+import profileImg from '../../assets/perfil.png';
 
-export default function ProfileCard({ onOpenBio, onOpenContact }) {
- 
-  const profileImageUrl = "https://avatars.githubusercontent.com/u/122571862?v=4";
+export default function ProfileCard ({onOpenBio, onOpenContact})
+{
+
+  const profileImageUrl = profileImg;
 
   return (
     <div className="bg-white border-2 border-black p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] text-center">
       <div className="w-32 h-32 mx-auto bg-gray-100 border-2 border-black mb-4 flex items-center justify-center overflow-hidden relative group">
         {profileImageUrl ? (
-          <img 
-            src={profileImageUrl} 
-            alt="Profile" 
+          <img
+            src={profileImageUrl}
+            alt="Profile"
             className="w-full h-full object-cover"
           />
         ) : (
@@ -21,10 +23,10 @@ export default function ProfileCard({ onOpenBio, onOpenContact }) {
           </div>
         )}
       </div>
-      
+
       <h2 className="font-mono font-bold text-xl mb-1">Daniel Ramos</h2>
       <p className="font-mono text-xs text-gray-500 mb-4 bg-gray-100 py-1 inline-block px-2">FULL_STACK_DEV</p>
-      
+
       <div className="text-left space-y-2 border-t-2 border-dashed border-gray-300 pt-4 text-xs font-mono">
         <div className="flex justify-between">
           <span>EXP:</span>
