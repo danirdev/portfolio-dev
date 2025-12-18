@@ -1,6 +1,7 @@
-import { Code, MessageSquare, User } from 'lucide-react';
+import {Code, Linkedin, Github} from 'lucide-react';
 
-export default function Header() {
+export default function Header ()
+{
   return (
     <header className="flex flex-col md:flex-row justify-between items-center mb-12 border-b-4 pb-6 bg-white/80 backdrop-blur-sm p-4 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
       <div className="text-center md:text-left mb-4 md:mb-0">
@@ -15,11 +16,12 @@ export default function Header() {
         </p>
       </div>
       <div className="flex gap-3">
-        <a href="#" className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors">
-          <MessageSquare size={20} />
+        <a href="https://www.linkedin.com/in/ramos-daniel-alberto/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-black hover:bg-black
+         hover:text-white transition-colors">
+          <Linkedin size={20} />
         </a>
-        <a href="#" className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors">
-          <User size={20} />
+        <a href="https://github.com/danirdev" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-black hover:bg-black hover:text-white transition-colors">
+          <Github size={20} />
         </a>
       </div>
     </header>
