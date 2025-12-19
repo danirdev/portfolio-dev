@@ -1,4 +1,4 @@
-import {User, Download} from 'lucide-react'; // Importamos el icono de descarga
+import {User, Download} from 'lucide-react';
 import PixelButton from '../iu/PixelButton';
 import profileImg from '../../assets/perfil.png';
 
